@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="std_box_margin">20dp</dimen>
+    <dimen name="std_between_pad">20dp</dimen>
+    <dimen name="std_title_size">20sp</dimen>
+    <dimen name="title_pad">10dp</dimen>
+</resources>

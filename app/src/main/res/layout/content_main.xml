@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/banner_tech"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/banner_tech"/>
+
+    <RelativeLayout
+        android:id="@+id/layout_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/std_box_margin">
+
+        <ImageView
+            android:id="@+id/ic_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/std_between_pad"
+            android:paddingBottom="@dimen/std_between_pad"
+            android:src="@drawable/ic_phone"/>
+
+        <TextView
+            android:id="@+id/txv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ic_phone"
+            android:layout_toRightOf="@id/ic_phone"
+            android:paddingBottom="@dimen/std_between_pad"
+            android:text="@string/phone"/>
+
+        <ImageView
+            android:id="@+id/ic_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ic_phone"
+            android:paddingRight="@dimen/std_between_pad"
+            android:paddingBottom="@dimen/std_between_pad"
+            android:src="@drawable/ic_mail_outline"/>
+
+        <TextView
+            android:id="@+id/txv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txv_phone"
+            android:layout_toRightOf="@id/ic_email"
+            android:paddingBottom="@dimen/std_between_pad"
+            android:text="@string/email"/>
+
+        <ImageView
+            android:id="@+id/ic_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_location_on"
+            android:paddingRight="@dimen/std_between_pad"
+            android:layout_below="@id/ic_email"/>
+
+        <TextView
+            android:id="@+id/txv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txv_email"
+            android:layout_toRightOf="@id/ic_address"
+            android:text="@string/address"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/std_box_margin">
+
+        <TextView
+            android:id="@+id/txv_title_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/title_pad"
+            android:textSize="@dimen/std_title_size"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/title_about"/>
+
+        <TextView
+            android:id="@+id/txv_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/std_between_pad"
+            android:textAlignment="center"
+            android:text="@string/about"/>
+
+    </LinearLayout>
+
+</LinearLayout>

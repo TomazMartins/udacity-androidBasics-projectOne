@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Al Works Technology</string>
+    <string name="phone">+55 (61) 3366-9727</string>
+    <string name="email">contact@alworks.com</string>
+    <string name="address">306 Norte, Asa Norte, Brasília - DF</string>
+    <string name="title_about">Sobre a Empresa</string>
+    <string name="about">A Al Works Technology é uma empresa cujo objetivo é a construção de softwares de qualidade que visem facilitar o dia a dia de nossos clientes. Seja para auxiliá-lo com a busca de uma solução para um problema ou para ajudá-lo a concretizar uma idéia.</string>
+    <string name="operating_time">Horário de Funcionamento: 8h às 18h</string>
+</resources>
